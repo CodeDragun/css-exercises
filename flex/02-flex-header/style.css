@@ -1,3 +1,7 @@
+* > div,ul {
+  display: flex;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
@@ -9,6 +13,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  
 }
 
 ul {
@@ -22,4 +27,22 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+
+.header{
+ 
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;  
+
+}
+
+
+ul{
+  margin: 0px;
+  padding: 0%;
+  gap: 10px;
+  
+  flex-direction: row;
 }
